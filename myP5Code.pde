@@ -7,14 +7,18 @@ void setup() {
 
 //🟢Draw Procedure - Runs on Repeat
 void draw(){
-  fill(255,255,255);
+  fill(255,255,255,0);
   strokeWeight(3);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Unit Goes Here
-  ellipse(200, 300, 150, 150);
-  ellipse(200, 200, 100, 100);
-  ellipse(200, 120, 75, 75);
-  
+  rect(0, 375, 500,100); // ground
+  ellipse(200, 300, 150, 150); // bottom circle
+  ellipse(200, 200, 100, 100); //middle circle
+  ellipse(200, 120, 75, 75); //top circle
+  line(114,135,150, 191); // left arm
+  line(250,200,299,245); // right arm
+  ellipse (185, 110, 9, 7); // left eye
+  ellipse (210, 110, 9, 7); //right eye
 
 }
 
